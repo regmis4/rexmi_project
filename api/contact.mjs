@@ -18,9 +18,9 @@ export function createContactHandler({ env = process.env, send = fetch } = {}) {
     if (!req.headers['content-type']?.startsWith('application/json')) return reply(415, { ok: false });
     let data;
     try {
-      let body = '', size = 0;
-      for await (const chunk of req) { size += Buffer.byteLength(chunk); if (size > 16384) return reply(413, { ok: false }); body += chunk; }
-      data = JSON.parse(body);
+      const chunks = []; let size = 0;
+      for await (const chunk of req) { const bytes = Buffer.from(chunk); size += bytes.length; if (size > 16384) return reply(413, { ok: false }); chunks.push(bytes); }
+      data = JSON.parse(Buffer.concat(chunks).toString('utf8'));
     } catch { return reply(400, { ok: false }); }
     if (!data || typeof data !== 'object' || Array.isArray(data)) return reply(400, { ok: false });
     if (data.website) return reply(400, { ok: false });
