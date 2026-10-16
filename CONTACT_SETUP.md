@@ -1,6 +1,6 @@
-# FARFIELD contact delivery
+# FARFIELD Robotics contact delivery
 
-The contact page and email endpoint are implemented. Live delivery is not activated.
+Live contact delivery is active on `https://farfieldrobotics.com`. On 16 October 2026, an authorized inquiry submitted through the public form returned success and Resend confirmed delivery to the configured founder inbox.
 
 Run on Node.js 22+ with `node --env-file=.env server.mjs`. No package installation is needed. Copy `.env.example` to `.env` and configure the values privately on your hosting provider:
 
@@ -28,4 +28,4 @@ Add the domain in the host dashboard, copy its DNS records to Cloudflare and ver
 
 The HTML now loads images from `assets/site/`; deploy that directory with the pages. Opening or sharing the HTML alone no longer includes the images. Run the Node server to preview the complete site.
 
-Release review on 16 October 2026: local content and backend checked; no public deployment or real email-delivery test performed.
+Release verification on 16 October 2026: public HTTPS, root and www redirects, pages, images and brief passed checks. Resend domain verification is complete. A sending-only key restricted to `farfieldrobotics.com` is stored in Render environment variables; no credential is committed to this repository. One live form submission was delivered successfully. Render currently uses the free instance, which can introduce a cold-start delay after inactivity.
