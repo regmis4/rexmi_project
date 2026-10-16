@@ -1,4 +1,4 @@
-# FARFIELD
+# FARFIELD Robotics
 
 ## Physical AI for the next frontier. / Physical AI for space.
 
@@ -12,7 +12,7 @@ Wheels for distance. Legs for what lies ahead.
 
 NASA’s Moon Base plans and commercial landers are opening a new chapter of lunar exploration.
 
-FARFIELD is developing the ground crew: robots that put instruments, tools and intelligence where missions need them.
+FARFIELD Robotics is developing the ground crew: robots that put instruments, tools and intelligence where missions need them.
 
 ## Reach further. Make every visit count.
 
@@ -65,7 +65,7 @@ Investing in physical AI, planning a payload, or building a mission? Let’s tal
 
 Name · Phone (optional) · Email address · A brief note
 
-Your details are emailed to FARFIELD via Resend and used to respond to your inquiry.
+Your details are emailed to FARFIELD Robotics via Resend and used to respond to your inquiry.
 
 ---
 
