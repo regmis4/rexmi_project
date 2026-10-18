@@ -4,7 +4,7 @@
 
 Our first robot: REXMI, a wheeled quadruped for lunar missions.
 
-Wheels for distance. Legs for what lies ahead.
+Wheels for distance. Legs for access. Intelligence to keep the mission moving.
 
 **Explore the mission** · **Read the brief** · **Investors & partners**
 
