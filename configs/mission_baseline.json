@@ -1,0 +1,59 @@
+{
+  "baseline_id": "REXMI-LUNAR-001",
+  "version": "1.0",
+  "date": "2026-10-29",
+  "status": "frozen_design_target_not_demonstrated_capability",
+  "owner": "FARFIELD Robotics",
+  "mission": "Shackleton crater interior science access and return to a power post",
+  "total_deployed_mass_kg": 25.0,
+  "mass_includes": [
+    "robot",
+    "battery",
+    "science payload",
+    "thermal hardware",
+    "dust protection",
+    "docking hardware"
+  ],
+  "target_ascent_deg": 40.0,
+  "target_descent_deg": 40.0,
+  "cross_slope_limit_deg": null,
+  "gravity_m_s2": 1.62,
+  "geometry_baseline": "Go2W source geometry; source URDF/mesh snapshot and hashes recorded",
+  "actuator_baseline": "Go2W source URDF limits; retain separate current Isaac caps for regression; continuous duty requires audit",
+  "wheel_design": {
+    "first_candidate": "mesh wheel",
+    "retain_diameter": true,
+    "retain_width": true,
+    "compliance_requires_calibration": true
+  },
+  "payload_candidates": [
+    "ground-penetrating radar",
+    "spectrometers"
+  ],
+  "payload_mass_kg": null,
+  "battery_capacity_Wh": null,
+  "power": {
+    "sortie": "onboard battery for all loads including science, heating, recovery and docking reserve",
+    "recharge": "external power post",
+    "lunar_night": "connected to a post with verified available energy and thermal support",
+    "post_interface_status": "not yet specified",
+    "post_power_W": null,
+    "post_night_energy_Wh": null,
+    "minimum_return_reserve_Wh": null
+  },
+  "validation_rig": "laboratory arm/carriage carrying REXMI wheel/leg",
+  "route_coordinates": null,
+  "target_depth_m": null,
+  "soil_envelope": null,
+  "source_provenance": {
+    "rexmi_rl_commit": "f8b16daf1c2042e22415b235abaf49c92be5c7ea",
+    "files": {
+      "assets/robots/go2w/urdf/go2w.urdf": "8678da7e57ddaffc135d7b5580ad5014e740bbd3d815720d902960a42b1e2b16",
+      "source/rexmi_rl/assets/go2w.py": "ac749cee060559576b25968d26bbebb016f45b11bd9d61ed3623eac807264641",
+      "docs/validation/crater_west_loop_2026-10-25.md": "a33218f87f1653b0fe77a0948114b9085bbe0bf990fe53bd7faeb26916e79c7c",
+      "docs/chrono_lunar_mobility_plan.md": "26cbff95ef47ec12d291d8c615ab50f7aa9b33c3d1145fef05429fc98f9e4250"
+    },
+    "website_source_commit": "0f546b5e2cff250230c79d471b850fffb2eb2729"
+  },
+  "change_control": "Explicit baseline revision required for mass, slope, geometry, torque, wheel envelope or power architecture changes"
+}
