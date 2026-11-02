@@ -1,82 +1,67 @@
+# FARFIELD Robotics | Business & technology brief
+
+November 2026
+
 # REXMI. A ground crew for the Moon.
 
-## Physical AI for space. Starting on the surface.
+Physical AI for space. Wheels for distance. Legs for what lies ahead.
 
-FARFIELD is developing REXMI, a wheeled quadruped for lunar missions. The design combines wheeled-leg mobility, mission autonomy and instrument access. Wheels cover traversable ground; articulated legs adapt clearance and contact placement over broken terrain. Crater access is part of the system concept.
+## The opportunity
 
-**Reach the site. Collect the evidence. Make the next mission decision.**
+NASA’s Artemis program and U.S.-China competition are making the lunar south pole a strategic frontier. [1,3] Establishing a lasting presence requires **access to challenging craters and ground truth** on potential water resources. [2] The opportunity extends beyond reaching a site: missions need **closely spaced measurements, precise instrument placement and repeat visits**. REXMI is being designed for this sustained surface work - turning difficult terrain into mission access and orbital resource clues into evidence that **informs where to explore, invest and build**.
+
+Sustaining that infrastructure creates continuous opportunities for mobile, adaptive robots: **inspecting assets, monitoring equipment condition and supporting servicing** across lunar work sites.
+
+## Our first product
+
+FARFIELD Robotics is developing REXMI, a configurable wheeled quadruped for lunar surface work. Wheels cover distance; articulated legs adapt posture, clearance and contact placement. Crater access is part of the design.
 
 ## Mission roles
 
-### Scout & recon
+**Scout & recon.** Map hazards and navigable routes between landing areas, science targets and work sites.
 
-Map terrain, hazards and routes. Combine navigational data with resource maps so mission teams can choose both a target and an approach.
+**Resource mapping & crater access.** Carry spectrometers or ground-penetrating radar to promising sites. Ground measurements test orbital resource maps before investment in in-situ resource utilization (ISRU). Planned deployment hardware will place instruments along the route.
 
-**Example:** Survey a route from a lander to a science target, flag difficult slopes and identify an alternative approach.
+**Supplies.** Carry mission-sized instruments, equipment and tools to reduce astronaut workload.
 
-### Resource mapping & crater access
+**Inspection.** Revisit infrastructure and instruments to track damage, dust and obstructions.
 
-Reach candidate resource sites, including selected crater slopes and interiors. Ground measurements test orbital interpretations before committing equipment to in-situ resource utilization (ISRU). Polar ice is one target. Candidate payloads include spectrometers for composition and ground-penetrating radar for subsurface structure. [1-3]
+## The business
 
-**Example:** Traverse a candidate ice-bearing site and return location-tagged instrument measurements to inform where further investigation or excavation is justified.
-
-### Supplies
-
-Carry mission-sized instruments, equipment and tools between landing areas and work sites, reducing astronaut workload.
-
-**Example:** Bring a science instrument and tool kit to a crew work site so astronauts can spend more time on the task.
-
-### Inspection
-
-Revisit surface infrastructure and scientific instruments. Compare observations across visits to identify damage, dust buildup or obstructions.
-
-**Example:** Repeat a survey around a lander and return images for operator review.
-
-## Current foundation
-
-Our simulation work combines reinforcement-learning movement skills, route planning, skill switching and recovery. [4] The development path connects this software to physical robot trials and lunar environmental testing.
-
-**The product goal: a mobile instrument platform that turns access into useful mission data.**
+Our planned revenue streams combine robot systems, payload integration, mission support and ground-truth data sales. Customers include mission operators, science teams and resource developers seeking route surveys, resource maps and repeat observations.
 
 ---
 
-# From simulation to surface work.
+# Intelligence that moves with the mission.
 
-## The system we’re developing
+Adaptive mobility. Instrument access. Repeatable surface work.
 
-REXMI brings mobility, perception and payload operation into one mission architecture. Its intended users are mission operators, science teams and surface infrastructure providers. The goal is to reach useful sites, gather evidence and reduce the work required of astronauts and operators.
+## Wheels. Legs. Ground intelligence.
+
+Four articulated legs give REXMI the freedom to change how it meets the ground. Wheels provide efficient transit; legs adjust stance, clearance and contact placement. We are developing **physical AI that adapts movement to unfamiliar obstacles and changing soil conditions**, with gaits designed to recover from traction loss, slippage and sinkage. Together, these capabilities are designed to enable **>40° slope handling** - a new class of adaptive rovers for harsh craters.
 
 ## Development focus
 
-### Lunar mobility simulation
+**Lunar mobility simulation.** Train movement and recovery across slopes, broken terrain and variable traction.
 
-Planned training and evaluation cover reduced gravity, variable traction, loose terrain and actuator limits. Crater approach, descent, traverse and exit will be assessed through route completion, stability, energy use and recovery.
+**Adaptive thermal control.** Manage heat and power for sunlit terrain and shadowed crater work.
 
-### Adaptive thermal control
+**Perception.** Turn terrain sensing into navigable routes and location-tagged science.
 
-The planned thermal architecture combines heat paths, radiators, insulation, heaters and temperature-aware operation around payload loads, sunlight and mission duration. Shadowed crater work requires a dedicated power and thermal design.
+**Dust protection.** Engineer protected mechanisms for abrasive lunar dust.
 
-### Perception
+**Robot validation.** Bring learned autonomy to physical hardware, payloads and representative terrain.
 
-Perception development covers terrain mapping, hazard detection and localization for navigation and instrument positioning. Science measurements will be associated with location, time and acquisition conditions.
+## Long-term vision
 
-### Dust protection
+Physical AI for space, across quadrupeds, humanoids and hybrids. REXMI is the starting point.
 
-Mechanism design will address shields, seals, cable routing and lubrication for abrasive dust. Planned tests cover dust exposure, wear, vacuum and thermal cycling of mechanisms, optics and heat-rejection surfaces.
+## Start a conversation
 
-### Robot validation
-
-Planned hardware trials will test mobility, payload operation, load carrying and inspection on representative terrain. Evaluation will cover repeatability, energy use, operator intervention and responses to localization, communication and thermal faults.
-
-## Integration and the next proof point
-
-Planned payload interfaces cover mounting, power, data and calibration. The next system demonstration will target a repeatable survey: reach a site, collect location-tagged data and complete the route within defined operating limits. Hardware trials and environmental testing will establish the usable mission envelope.
-
-**Long-term vision: physical AI for space, across quadrupeds, humanoids and hybrids. REXMI is the starting point.**
+Planning a lunar payload or investing in physical AI? <a href="https://farfieldrobotics.com/contact.html" color="#8a5d22">Let's talk.</a>
 
 ## Sources
 
-1. [NASA: Moon Water and Ices](https://science.nasa.gov/moon/moon-water-and-ices/). Polar ice and volatile distribution.
-2. [NASA: Lunar Terrain Vehicle instruments](https://www.nasa.gov/news-release/nasa-selects-instruments-for-artemis-lunar-terrain-vehicle/), July 2025. Spectroscopy and subsurface radar.
-3. [NASA: Lunar surface science payloads](https://science.nasa.gov/lunar-science/clps-deliveries/to2-astrobotic/). Ground measurements and orbital observations.
-4. FARFIELD simulation development records and founder design direction, August-September 2026.
+[1. NASA national space policy, March 2026.](https://www.nasa.gov/news-release/nasa-unveils-initiatives-to-achieve-americas-national-space-policy/)
+[2. NASA: ground measurements of south-pole water, March 2026.](https://www.nasa.gov/solar-system/moon/nasas-water-hunting-tool-will-help-scout-moons-south-pole/)
+[3. China: south-pole exploration and crewed lunar program, May 2026.](https://english.www.gov.cn/news/202605/23/content_WS6a118ca1c6d00ca5f9a0b33c.html)
